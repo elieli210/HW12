@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap");
+body {
+  background-color: rgba(245, 245, 245, 0.589);
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+
+.container {
+  overflow-y: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.contactInfo {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3f397a), to(#18184b));
+  background: linear-gradient(to bottom, #3f397a, #18184b);
+  color: whitesmoke;
+  width: 250px;
+  height: 550px;
+  border-radius: 10px;
+  display: block;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 23px 73px -17px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 23px 73px -17px rgba(0, 0, 0, 0.16);
+}
+
+.contactUs {
+  background-color: white;
+  color: gray;
+  width: 400px;
+  height: 500px;
+  border: 1px solid whitesmoke;
+  border-radius: 2px;
+  display: block;
+  -webkit-box-shadow: 0 23px 73px -17px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 23px 73px -17px rgba(0, 0, 0, 0.16);
+  margin-top: 30px;
+}
+
+.form-style {
+  margin-left: 20px;
+  font-size: large;
+}
+
+.input-form {
+  width: 300px;
+  height: 25px;
+  border: 0.5px solid #9e9c9c;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+.submit {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3f397a), to(#18184b));
+  background: linear-gradient(to bottom, #3f397a, #18184b);
+  border: 0.5px solid #18184b;
+  border-radius: 5px;
+  color: whitesmoke;
+  width: 310px;
+  height: 30px;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+.icon {
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: smaller;
+}
+
+.parag {
+  font-size: large;
+  margin-left: 40px;
+}
+
+.logos {
+  margin: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 540px;
+  gap: 2px;
+}
+
+#msg {
+  width: 300px;
+  height: 25px;
+  border: 0.5px solid #9e9c9c;
+  border-radius: 5px;
+  margin: 15px;
+}
+/*# sourceMappingURL=style.css.map */

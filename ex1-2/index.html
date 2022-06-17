@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="contactInfo">
+        <h2>Contact Info</h2>
+        <div class="icon">
+          <p><i class="fas fa-user"></i>Name</p>
+        </div>
+        <p class="parag">Elmira Rezabeyk</p>
+        <div class="icon">
+          <p><i class="fas fa-envelope"></i>Email</p>
+        </div>
+        <p class="parag " id="change">elmira.rezabeyk@gmail.com</p>
+
+        <div class="icon">
+          <p><i class="fas fa-phone-alt"></i>Phone</p>
+        </div>
+        <p class="parag">+98 98765487</p>
+        <div class="icon">
+          <p><i class="fas fa-map-pin"></i>Address</p>
+        </div>
+        <p class="parag">Iran</p>
+        <footer class="logos">
+         <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-twitter"></i>
+        </footer>
+      </div>
+      <div class="contactUs">
+        <h2>Contact Us</h2>
+        <hr />
+        <form class="form-style">
+          <label for="Name">Name</label><br />
+          <input class="input-form" type="text" id="Name" onchange ="myFunction()"/><br />
+          <label for="Email">Email</label><br />
+          <input class="input-form" type="email" id="Email" onchange ="myFunction2()"/><br />
+          <label for="Phone">Phone</label><br />
+          <input class="input-form" type="text" id="Phone" /><br />
+          <label for="Message">Massage</label><br />
+          <textarea  name="" id="msg" cols="" rows="5"></textarea><br />
+        </form>
+        <button type="submit" class="submit" >Submit</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.list{
+    background-color: rgb(235, 233, 229);
+    border: rgb(211, 210, 208);
+    border-style: solid;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+    border-width: 5px;
+    width: 250px;
+    height: 180px;
+    line-height: 30px;
+    margin: auto;
+}
+
